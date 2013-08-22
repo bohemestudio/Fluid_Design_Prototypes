@@ -1,0 +1,16 @@
+{
+    "name": "test",
+    "version": "1.0.0",
+    "main": ["./js/app.js"],
+    "dependencies": {
+
+        "lib/jquery":                           "http://code.jquery.com/jquery-1.8.2.js",
+        "lib/_legacy/jquery-1.7.8":             "http://code.jquery.com/jquery-1.7.8.js",
+        "lib/jquery-mobile":                    "http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.js",
+        "ext/jquery/jquery.easing":             "git://github.com/danro/jquery-easing.git",
+        "ext/jquery/jquery.colorbox":           "git://github.com/jackmoore/colorbox.git",
+        "ext/jquery/jquery.bowertest":          "git://github.com/barneyfoxuk/bowertest.git",
+        "ext/jquery/jquery.smooth-scroll":      "git://github.com/kswedberg/jquery-smooth-scroll.git"
+
+    }
+}
