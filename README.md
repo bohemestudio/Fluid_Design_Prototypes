@@ -1,4 +1,5 @@
-development.bohemestudio Fluid Design Prototypes
+development.bohemestudio
+Fluid Design Prototypes
 ===============
 
 Fluid Design Prototypes without any responsive framework
