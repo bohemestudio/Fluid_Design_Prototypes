@@ -218,8 +218,8 @@ body {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003224}}
-.header .main-nav ul li a:hover {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003225}}
+.header .main-nav ul li a.active, .header .main-nav ul li a:hover {
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
   color: #d9561c;
@@ -228,20 +228,20 @@ body {
 
 /* END HEADER STYLES ==================================================== */
 /* PRODUCT PAGES STYLES ================================================= */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003240}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003241}}
 .tabs-menu {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003243}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003244}}
 .tabs-menu ul {
   width: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003247}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003248}}
 .tabs-menu ul li {
   width: 33%;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003254}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003255}}
 .tabs-menu .tab-nav {
   width: 90%;
   display: block;
@@ -253,39 +253,39 @@ body {
   margin: 20%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003267}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003268}}
 .stick {
   position: fixed;
   top: 0;
   left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003273}}
 .stick .tab-nav {
   background: #ffffff;
   color: #000000;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003280}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003281}}
 .content-tabs h2 {
   font-size: 50px;
   text-shadow: 0px 0px 8px #000000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003286}}
 .content-tabs p {
   text-shadow: 3px 3px 5px #000000;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003290}}
 .content-tabs .tab {
   display: block;
   position: relative;
   width: 100%;
   text-align: center;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003296}}
 .content-tabs .tab .row {
   z-index: 10;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003299}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003300}}
 .content-tabs .tab .tab-nav {
   z-index: 100;
   position: fixed;
@@ -293,7 +293,7 @@ body {
   left: 0px;
   text-align: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003306}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003307}}
 .content-tabs .tab .tab-nav a {
   font-family: 'Josefin Sans', sans-serif, Verdana;
   font-size: 1.3em;
@@ -312,7 +312,7 @@ body {
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003327}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003328}}
 .content-tabs .tab .tab-nav a:hover, .content-tabs .tab .tab-nav a:active {
   border: 1px solid rgba(0, 0, 0, 0);
   -webkit-transition: all 0.2s ease-in-out;
@@ -323,7 +323,7 @@ body {
   -webkit-box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
   box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003342}}
 .content-tabs .tab .tab-nav a.tab1 {
   background: #d9561c;
   background: -moz-linear-gradient(top, #d9561c 0%, #ad3c16 100%);
@@ -339,7 +339,7 @@ body {
   background: linear-gradient(to bottom, #d9561c 0%, #ad3c16 100%);
   /* W3C */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003355}}
 .content-tabs .tab .tab-nav a.tab2 {
   background: #3b5998;
   background: -moz-linear-gradient(top, #3b5998 0%, #2c4972 100%);
@@ -355,7 +355,7 @@ body {
   background: linear-gradient(to bottom, #3b5998 0%, #2c4972 100%);
   /* W3C */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003367}}
 .content-tabs .tab .tab-nav a.tab3 {
   background: #00ACED;
   background: -moz-linear-gradient(top, #00aced 0%, #009dc9 100%);
@@ -371,7 +371,7 @@ body {
   background: linear-gradient(to bottom, #00aced 0%, #009dc9 100%);
   /* W3C */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003379}}
 .content-tabs .tab .tab-nav a.tab4 {
   background: #A37758;
   background: -moz-linear-gradient(top, #a37758 0%, #7f5944 100%);
@@ -387,7 +387,7 @@ body {
   background: linear-gradient(to bottom, #a37758 0%, #7f5944 100%);
   /* W3C */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003391}}
 .content-tabs .tab .tab-nav a.tab5 {
   background: #f3f3f3;
   background: -moz-linear-gradient(top, #f3f3f3 0%, #d8d8d8 100%);
@@ -403,7 +403,7 @@ body {
   background: linear-gradient(to bottom, #f3f3f3 0%, #d8d8d8 100%);
   /* W3C */
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003404}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003405}}
 .content-tabs .tab .youtube-background {
   position: absolute;
   top: 0;
@@ -413,7 +413,7 @@ body {
   z-index: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003416}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003417}}
 .tab-arrow-nav {
   position: fixed;
   right: 0;
@@ -421,18 +421,18 @@ body {
   width: 5%;
   z-index: 10;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003423}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003424}}
 .tab-arrow-nav ul {
   width: 100%;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003427}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003428}}
 .tab-arrow-nav ul li {
   float: left;
   width: 100%;
   display: block;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003434}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003435}}
 .tab-arrow-nav a {
   width: 100%;
   border: 1px solid #ffffff;
@@ -443,23 +443,23 @@ body {
   text-align: center;
   padding: 10px 1%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003444}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003445}}
 .tab-arrow-nav a:hover {
   background: #ffffff;
   color: #046695;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003451}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003452}}
 .tab-arrow-nav .prev {
   display: none;
   float: left;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003456}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003457}}
 .tab-arrow-nav .next {
   float: left;
 }
 
 /* Backgrounds */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003462}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003463}}
 #tab1 {
   background: #d9561c;
   background: -moz-linear-gradient(top, #d9561c 0%, #ad3c16 100%);
@@ -476,7 +476,7 @@ body {
   /* W3C */
   background-size: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003475}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003476}}
 #tab1 .button {
   -moz-box-shadow: 0px 10px 14px -7px black;
   -webkit-box-shadow: 0px 10px 14px -7px black;
@@ -502,7 +502,7 @@ body {
   text-decoration: none;
   text-shadow: 0px 1px 0px #54230e;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003508}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003509}}
 #tab1 .button:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #d9551c), color-stop(1, #e89a79));
   background: -moz-linear-gradient(top, #d9551c 5%, #e89a79 100%);
@@ -513,13 +513,13 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d9551c', endColorstr='#e89a79',GradientType=0);
   background-color: #d9551c;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003521}}
 #tab1 .button:active {
   position: relative;
   top: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003528}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003529}}
 #tab2 {
   background: #3b5998;
   background: -moz-linear-gradient(top, #3b5998 0%, #2c4972 100%);
@@ -536,7 +536,7 @@ body {
   /* W3C */
   background-size: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003541}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003542}}
 #tab2 .button {
   -moz-box-shadow: 0px 10px 14px -7px #284470;
   -webkit-box-shadow: 0px 10px 14px -7px #284470;
@@ -562,7 +562,7 @@ body {
   text-decoration: none;
   text-shadow: 0px 1px 0px #263666;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003575}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003576}}
 #tab2 .button:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #516ca3), color-stop(1, #415989));
   background: -moz-linear-gradient(top, #516ca3 5%, #415989 100%);
@@ -573,13 +573,13 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#516ca3', endColorstr='#415989',GradientType=0);
   background-color: #516ca3;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003587}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003588}}
 #tab2 .button:active {
   position: relative;
   top: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003593}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003594}}
 #tab3 {
   background: #00ACED;
   background: -moz-linear-gradient(top, #00aced 0%, #009dc9 100%);
@@ -596,7 +596,7 @@ body {
   /* W3C */
   background-size: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003605}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003606}}
 #tab3 .button {
   -moz-box-shadow: 0px 10px 14px -7px #f0f7fa;
   -webkit-box-shadow: 0px 10px 14px -7px #f0f7fa;
@@ -622,7 +622,7 @@ body {
   text-decoration: none;
   text-shadow: 0px 1px 0px #5b6178;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003638}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003639}}
 #tab3 .button:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #019ad2), color-stop(1, #33bdef));
   background: -moz-linear-gradient(top, #019ad2 5%, #33bdef 100%);
@@ -633,13 +633,13 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#019ad2', endColorstr='#33bdef',GradientType=0);
   background-color: #019ad2;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003650}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003651}}
 #tab3 .button:active {
   position: relative;
   top: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003655}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003656}}
 #tab4 {
   background: #A37758;
   background: -moz-linear-gradient(top, #a37758 0%, #7f5944 100%);
@@ -656,7 +656,7 @@ body {
   /* W3C */
   background-size: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003670}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003671}}
 #tab4 .button {
   -moz-box-shadow: 0px 10px 14px -7px black;
   -webkit-box-shadow: 0px 10px 14px -7px black;
@@ -682,7 +682,7 @@ body {
   text-decoration: none;
   text-shadow: 0px 1px 0px #4d3534;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003703}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003704}}
 #tab4 .button:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #634b30), color-stop(1, #7d5d3b));
   background: -moz-linear-gradient(top, #634b30 5%, #7d5d3b 100%);
@@ -693,13 +693,13 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#634b30', endColorstr='#7d5d3b',GradientType=0);
   background-color: #634b30;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003715}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003716}}
 #tab4 .button:active {
   position: relative;
   top: 1px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003722}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003723}}
 #tab5 {
   background: #f3f3f3;
   background: -moz-linear-gradient(top, #f3f3f3 0%, #d8d8d8 100%);
@@ -716,7 +716,7 @@ body {
   /* W3C */
   background-size: 100%;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003736}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003737}}
 #tab5 .button {
   -moz-box-shadow: 0px 10px 14px -7px black;
   -webkit-box-shadow: 0px 10px 14px -7px black;
@@ -742,7 +742,7 @@ body {
   text-decoration: none;
   text-shadow: 0px 1px 0px #ffffff;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003769}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003770}}
 #tab5 .button:hover {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, white));
   background: -moz-linear-gradient(top, #f6f6f6 5%, white 100%);
@@ -753,7 +753,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
   background-color: #f6f6f6;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003781}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003782}}
 #tab5 .button:active {
   position: relative;
   top: 1px;
@@ -782,7 +782,7 @@ body {
   }
 }
 /* FONTS OLDER IE */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003810}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style2\.scss}line{font-family:\00003811}}
 .lt-ie9 h1, .lt-ie9 h2, .lt-ie9 h3, .lt-ie9 h4,
 .lt-ie9 .header .main-nav ul li a {
   font-family: 'Oswald', sans-serif;

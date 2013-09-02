@@ -226,6 +226,7 @@
             text-align: center;
             text-decoration: none;
 
+            &.active,
             &:hover{
               color: #d9561c;
             }
