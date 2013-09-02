@@ -364,7 +364,7 @@ body {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style\.scss}line{font-family:\00003383}}
 .tab-arrow-nav {
   position: fixed;
-  bottom: 10px;
+  bottom: 0;
   width: 100%;
   z-index: 10;
 }
