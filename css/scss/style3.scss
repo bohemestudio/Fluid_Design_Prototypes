@@ -4,16 +4,7 @@
 
   /* FONTS ================================================================== */
 
-  @import url("http://fonts.googleapis.com/css?family=Oswald:400,700,300");
-
-  @font-face {
-  font-family: 'TradeGothicBoldCondensedNo.20';
-    src: url('../fonts/tradegothic-boldcondtwenty.eot');
-    src: url('../fonts/tradegothic-boldcondtwenty.eot') format('embedded-opentype'),
-         url('../fonts/tradegothic-boldcondtwenty.woff') format('woff'),
-         url('../fonts/tradegothic-boldcondtwenty.ttf') format('truetype'),
-         url('../fonts/tradegothic-boldcondtwenty.svg#TradeGothicBoldCondensedNo.20') format('svg');
-  }
+@import url(http://fonts.googleapis.com/css?family=Marck+Script);
 
   /* END FONTS ============================================================== */
 
@@ -41,7 +32,7 @@
     }
 
     .one-column .column{
-      width: 50%;
+      width: 100%;
     }
 
     .two-column .column{
@@ -100,7 +91,9 @@
       top: 0;
       width: 100%;
       height: 50px;
-      background: #000000;
+      background: rgba(0, 0, 0, 0.7);
+      -webkit-box-shadow:  0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+      box-shadow:  0px 10px 10px 0px rgba(0, 0, 0, 0.5);
 
       z-index: 100;
 
@@ -204,13 +197,10 @@
         ul{
 
           margin-top: 0px;
-
           width: 100%;
           float: left;
-
           padding: 10px 0 5px 0 ;
 
-          background-color: rgba(0, 0, 0, 0.9);
         }
 
         ul li{
@@ -218,8 +208,8 @@
           width: 20%;
 
           a{
-            font-family: "TradeGothicBoldCondensedNo.20";
-            font-size: 1.3em;
+            font-family: "Verdana";
+            font-size: 1.2em;
             text-transform: uppercase;
             color: #ffffff;
             display: block;
@@ -278,11 +268,89 @@
       }
     }
 
+
+    .tab-nav{
+      z-index: 100;
+      position: fixed;
+      top: 50px;
+      left: 0px;
+      text-align: left;
+      width: 100%;
+      background: rgba(0,0,0,0.2);
+
+      a{
+
+        display: block;
+        width: 20%;
+        float: left;
+        font-family: 'Marck Script', cursive;
+        text-decoration: none;
+        padding: 10px 0;
+        color: #ffffff;
+
+
+        font-size:2em;
+        text-align:center;
+        /* Left - Top - Grossir*/
+        text-shadow:
+          1px 1px 1px rgba(0,0,0,1),
+          1px 1px 0 #2a658b,
+          2px 2px 0 #29638a,
+          3px 3px 0 #286188,
+          4px 4px 0 #275f85,
+          5px 5px 0 #265d83,
+          6px 6px 0 #255a80,
+          7px 7px 0 #24577d,
+          8px 8px 0 #235479,
+          9px 9px 0 #215075,
+          10px 10px 0 #1f4c71,
+          11px 11px 0 #1e486c,
+          12px 12px 1px rgba(28,67,103,0.5),
+          14px 14px 12px rgba(5,13,20,0.5);
+
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+
+        &:hover,
+        &:active{
+          color: #ffffff;
+
+          -webkit-transform: translateX(5px);
+          -ms-transform: translateX(5px);
+          transform: translateX(5px);
+          text-shadow: none;
+          -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+        }
+
+        &.tab1{
+
+        }
+
+        &.tab2{
+
+        }
+
+        &.tab3{
+
+        }
+
+        &.tab4{
+
+        }
+
+        &.tab5{
+
+        }
+      }
+    }
+
     .content-tabs{
 
       h2{
         font-size: 2em;
         text-shadow: 0px 0px 8px #000000;
+        display: none;
       }
 
       p{
@@ -297,86 +365,6 @@
 
         .row{
           z-index: 10;
-        }
-
-        .tab-nav{
-          z-index: 100;
-          position: fixed;
-          top: 150px;
-          left: 0px;
-          text-align: left;
-
-          a{
-            font-family: "TradeGothicBoldCondensedNo.20";
-            text-decoration: none;
-            text-align: right;
-            color: #165399;
-            background: #ffffff;
-            padding: 10px 20px;
-            margin-bottom: 5px;
-            display: block;
-            width: 170px;
-            border-right: 10px solid #ffffff;
-            position: relative;
-            left: -190px;
-            -webkit-transition: all 0.4s ease-in-out;
-            transition: all 0.4s ease-in-out;
-
-            background: #bcd3e5; /* Old browsers */
-            background: -moz-linear-gradient(left,  #bcd3e5 0%, #165399 100%); /* FF3.6+ */
-            background: -webkit-gradient(linear, left top, right top, color-stop(0%,#bcd3e5), color-stop(100%,#165399)); /* Chrome,Safari4+ */
-            background: -webkit-linear-gradient(left,  #bcd3e5 0%,#165399 100%); /* Chrome10+,Safari5.1+ */
-            background: -o-linear-gradient(left,  #bcd3e5 0%,#165399 100%); /* Opera 11.10+ */
-            background: -ms-linear-gradient(left,  #bcd3e5 0%,#165399 100%); /* IE10+ */
-            background: linear-gradient(to right,  #bcd3e5 0%,#165399 100%); /* W3C */
-
-
-
-
-
-
-            &:hover,
-            &:active{
-              color: #000000;
-
-              text-shadow: none;
-              -webkit-transition: all 0.3s ease-in-out;
-              transition: all 0.3s ease-in-out;
-              -webkit-transform: translateX(170px);
-              -ms-transform: translateX(170px);
-              transform: translateX(170px);
-            }
-
-            &.tab1{
-              background: #166397;
-            }
-
-            &.tab2{
-              background: #0087B3;
-            }
-
-            &.tab3{
-              background: #4AAFCB;
-            }
-
-            &.tab4{
-              background: #94C3D5;
-            }
-
-            &.tab5{
-              background: #CAE1E9;
-            }
-          }
-        }
-
-        .youtube-background{
-          position: absolute;
-          top: 0;
-          left: 0;
-          overflow: hidden;
-
-          z-index: -99;
-          z-index: 1;
         }
       }
     }
@@ -425,21 +413,64 @@
     }
 
     /* Backgrounds */
+    .tab{
+
+      position: relative;
+      background: none;
+
+      a{
+        display: block;
+        text-align: center;
+
+        img{
+          width: 100%;
+          height: auto;
+          max-width: 500px;
+          max-height: 500px;
+          margin: 0 auto;
+        }
+
+      }
+    }
+
+
+    .fullsize-background{
+
+      width: 100%;
+      height: 100%;
+      z-index: -99998;
+
+      img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -99999;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+      }
+    }
+
     #tab1{
-      background: transparent url('../img/backgrounds/the_dark_knight_bg1.jpg') no-repeat center center;
-      background-size: 100%;
+
+      .fullscreen-background{
+        background: red;
+      }
+
+    }
+    #tab1{
+
     }
     #tab3{
-      background: transparent url('../img/backgrounds/the_dark_knight_bg3.jpg') no-repeat center center;
-      background-size: 100%;
+
     }
     #tab4{
-      background: transparent url('../img/backgrounds/the_dark_knight_bg4.jpg') no-repeat center center;
-      background-size: 100%;
+
     }
     #tab5{
-      background: transparent url('../img/backgrounds/the_dark_knight_bg5.jpg') no-repeat center center;
-      background-size: 100%;
+
     }
 
     /* END PRODUCT PAGES STYLES ============================================= */
