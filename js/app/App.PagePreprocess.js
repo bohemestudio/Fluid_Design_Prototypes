@@ -42,6 +42,9 @@ App.PagePreprocess = (function () {
         };
 
         var centerContent = function(windowWidth, windowHeight, $contentTab){
+
+
+
             var contentTabWidth = $contentTab.width();
             var contentTabHeight = $contentTab.height();
 
@@ -56,12 +59,12 @@ App.PagePreprocess = (function () {
 
         };
 
+
     var init = function() {
         //initiate the module
         resizeTabsFullHeight();
         viewportResize();
         backgroundVideo();
-
     };
 
     return {

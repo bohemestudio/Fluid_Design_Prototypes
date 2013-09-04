@@ -4,7 +4,7 @@
 
   /* FONTS ================================================================== */
 
-@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy);
+@import url(http://fonts.googleapis.com/css?family=Tulpen+One);
 
   /* END FONTS ============================================================== */
 
@@ -23,9 +23,8 @@
 
     body{
         font-size: 100%;
-        font-family: Georgia;
+        font-family: Arial;
         color: #ffffff;
-        overflow-x: hidden;
     }
 
     .row{
@@ -33,7 +32,7 @@
     }
 
     .one-column .column{
-      width: 100%;
+      width: 50%;
     }
 
     .two-column .column{
@@ -49,7 +48,7 @@
     }
 
     h1, h2, h3, h4{
-      font-family: Verdana;
+      font-family: 'Tulpen One', cursive;
       font-weight: normal;
       text-transform: uppercase;
       color: #ffffff;
@@ -62,6 +61,25 @@
       background: #000000;
     }
 
+    .main-frame-left,
+    .main-frame-right{
+      display: block;
+      height: 100%;
+      position: fixed;
+      top: 0;
+      width: 105px;
+      display: none;
+    }
+
+    .main-frame-left{
+      left: 0;
+      background: transparent url('../img/frame/main_frame_LEFT_pattern.png') repeat-y top left;
+    }
+
+    .main-frame-right{
+      right: 0;
+      background: transparent url('../img/frame/main_frame_RIGHT_pattern.png') repeat-y top right;
+    }
     /* END GENERAL STYLES =================================================== */
 
 
@@ -73,9 +91,7 @@
       top: 0;
       width: 100%;
       height: 50px;
-      background: rgba(0, 0, 0, 0.7);
-      -webkit-box-shadow:  0px 10px 10px 0px rgba(0, 0, 0, 0.5);
-      box-shadow:  0px 10px 10px 0px rgba(0, 0, 0, 0.5);
+      background: #000000;
 
       z-index: 100;
 
@@ -179,10 +195,13 @@
         ul{
 
           margin-top: 0px;
+
           width: 100%;
           float: left;
+
           padding: 10px 0 5px 0 ;
 
+          background-color: rgba(0, 0, 0, 0.9);
         }
 
         ul li{
@@ -190,8 +209,8 @@
           width: 20%;
 
           a{
-            font-family: "Verdana";
-            font-size: 0.8em;
+            font-family: 'Tulpen One', cursive;
+            font-size: 1.3em;
             text-transform: uppercase;
             color: #ffffff;
             display: block;
@@ -227,7 +246,8 @@
 
 
       .tab-nav{
-        width: 90%;
+
+        width: auto;
         display: block;
         background: #000000;
         color: #ffffff;
@@ -250,76 +270,11 @@
       }
     }
 
-
-    .tab-nav{
-      z-index: 100;
-      position: fixed;
-      top: 50px;
-      left: 0px;
-      text-align: left;
-      width: 100%;
-      background: rgba(255,255,255,0.4);
-
-      a{
-
-        font-size: 0.9em;
-
-        display: block;
-        width: 20%;
-        float: left;
-        font-family: 'Luckiest Guy', cursive;
-        text-decoration: none;
-        padding: 10px 0;
-        color: #ffffff;
-
-        position: relative;
-
-        text-align:center;
-        text-shadow: 5px 5px 0px black;
-
-
-
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-
-        &:hover,
-        &:active{
-          color: #ffffff;
-
-          color: #d9561c;
-
-          -webkit-transition: all 0.3s ease-in-out;
-          transition: all 0.3s ease-in-out;
-        }
-
-        &.tab1{
-
-        }
-
-        &.tab2{
-
-        }
-
-        &.tab3{
-
-        }
-
-        &.tab4{
-
-        }
-
-        &.tab5{
-
-        }
-      }
-    }
-
     .content-tabs{
 
       h2{
-        font-size: 2em;
+        font-size: 1.9em;
         text-shadow: 0px 0px 8px #000000;
-        display: none;
       }
 
       p{
@@ -328,32 +283,109 @@
 
       .tab{
         display: block;
-
+        position: relative;
         width: 100%;
         text-align: center;
 
-
         .row{
           z-index: 10;
-          position: relative;
         }
 
-        a{
-          display: block;
-          text-align: center;
+        .tab-nav{
+          z-index: 100;
+          position: fixed;
+          top: 0px;
+          left: -220px;
+          text-align: left;
+          background: rgba( 255, 255, 255, 0.5);
+          height: 100%;
+          padding-right: 90px;
+          -webkit-transition: all 0.4s ease-in-out;
+          transition: all 0.4s ease-in-out;
 
-          img{
-            width: 100%;
-            height: auto;
-            display: block;
-            max-width: 500px;
-            max-height: 500px;
-            margin: 0 auto;
+          &:hover{
+            -webkit-transform: translateX(170px);
+            -ms-transform: translateX(170px);
+            transform: translateX(170px);
+
+            -webkit-transition: all 0.2s ease-in-out;
+            transition: all 0.3s ease-in-out;
           }
 
+
+          ul{
+            position: relative;
+            top: 150px;
+          }
+
+          a{
+            font-family: 'Tulpen One', cursive;
+            font-family: 1em;
+            text-decoration: none;
+            text-align: right;
+            color: #000;
+            background: #ffffff;
+            padding: 10px 20px;
+            margin-bottom: 5px;
+            display: block;
+            width: 100%;
+            border-right: 10px solid #ffffff;
+            position: relative;
+            left: 0px;
+            -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+
+            background: #bcd3e5; /* Old browsers */
+            background: -moz-linear-gradient(left,  #bcd3e5 0%, #165399 100%); /* FF3.6+ */
+            background: -webkit-gradient(linear, left top, right top, color-stop(0%,#bcd3e5), color-stop(100%,#165399)); /* Chrome,Safari4+ */
+            background: -webkit-linear-gradient(left,  #bcd3e5 0%,#165399 100%); /* Chrome10+,Safari5.1+ */
+            background: -o-linear-gradient(left,  #bcd3e5 0%,#165399 100%); /* Opera 11.10+ */
+            background: -ms-linear-gradient(left,  #bcd3e5 0%,#165399 100%); /* IE10+ */
+            background: linear-gradient(to right,  #bcd3e5 0%,#165399 100%); /* W3C */
+
+
+            &:hover,
+            &:active{
+
+              background: #000000;
+              color: #ffffff;
+              text-shadow: none;
+              -webkit-transition: all 0.3s ease-in-out;
+              transition: all 0.3s ease-in-out;
+
+            }
+
+            &.tab1{
+              background: #166397;
+            }
+
+            &.tab2{
+              background: #0087B3;
+            }
+
+            &.tab3{
+              background: #4AAFCB;
+            }
+
+            &.tab4{
+              background: #94C3D5;
+            }
+
+            &.tab5{
+              background: #CAE1E9;
+            }
+          }
         }
 
+        .youtube-background{
+          position: absolute;
+          top: 0;
+          left: 0;
+          overflow: hidden;
 
+          z-index: -99;
+          z-index: 1;
+        }
       }
     }
 
@@ -361,83 +393,60 @@
       position: fixed;
       bottom: 0;
       width: 100%;
-      z-index: 10000;
+      z-index: 10;
 
       ul{
         width: 100%;
         float: left;
 
         li{
-
+          float: left;
+          width: 50%;
           display: block;
         }
       }
 
       a{
-        width: 60px;
-        height: 60px;
-        text-indent: 9999px;
-        display: block;
-        z-index: 10000;
+        width: 10%;
+        background: #046695;
+        font-family: Arial;
+        color: #ffffff ;
+        text-decoration: none;
+        text-align: center;
+        padding: 10px 1%;
 
         &:hover{
-
+          background: #ffffff;
+          color: #046695;
         }
       }
 
 
       .prev{
         display: none;
-        float: left;
-        background: transparent url(../img/comic-backgrounds/next_prev_sprite.png) no-repeat 0 -60px;
+        float: right;
       }
 
       .next{
-        float: right;
-        background: transparent url(../img/comic-backgrounds/next_prev_sprite.png) no-repeat 0 0;
+        float: left;
       }
     }
 
     /* Backgrounds */
-
-/*
-    .fullsize-background{
-
-      width: 100%;
-      height: 100%;
-      z-index: -99998;
-
-      img{
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        z-index: -99999;
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-      }
-    }*/
-
     #tab1{
-      background: transparent url("../img/comic-backgrounds/comic01.gif") no-repeat top left;
-      background-size: 100%;
-    }
-    #tab2{
-      background: transparent url("../img/comic-backgrounds/comic02.gif") no-repeat top left;
+      background: transparent url('../img/backgrounds/the_dark_knight_bg1.jpg') no-repeat center center;
       background-size: 100%;
     }
     #tab3{
-      background: transparent url("../img/comic-backgrounds/comic03.gif") no-repeat top left;
+      background: transparent url('../img/backgrounds/the_dark_knight_bg3.jpg') no-repeat center center;
       background-size: 100%;
     }
     #tab4{
-      background: transparent url("../img/comic-backgrounds/comic04.gif") no-repeat top left;
+      background: transparent url('../img/backgrounds/the_dark_knight_bg4.jpg') no-repeat center center;
       background-size: 100%;
     }
     #tab5{
-      background: transparent url("../img/comic-backgrounds/comic05.gif") no-repeat top left;
+      background: transparent url('../img/backgrounds/the_dark_knight_bg5.jpg') no-repeat center center;
       background-size: 100%;
     }
 

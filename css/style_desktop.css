@@ -1,12 +1,1 @@
-/* =============================================================================
-    STYLE > STYLE TABLET > STYLE DESKTOP
-   ========================================================================== */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style_desktop\.scss}line{font-family:\000035}}
-p {
-  font-size: 1.3em;
-}
-
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style_desktop\.scss}line{font-family:\000039}}
-.content-tabs h2 {
-  font-size: 2.8em;
-}
+p{font-size:1.3em}.content-tabs h2{font-size:2.8em}
