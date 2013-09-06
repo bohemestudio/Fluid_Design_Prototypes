@@ -418,8 +418,19 @@ body {
     font-size: 2.8em;
   }
 }
+/* ----------------------------------- ENHANCED VIEW - LANDSCAPE --------------------------------- */
+@media (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+  /* =============================================================================
+      STYLE > LANDSCAPE
+     ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style_landscape\.scss}line{font-family:\000035}}
+  .tab a img {
+    max-height: 250px;
+    width: auto;
+  }
+}
 /* FONTS OLDER IE */
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style1\.scss}line{font-family:\00003481}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/miguel\.garcia\/Desktop\/MyKarmaProjects\/bohemestudio\/Fluid_Design_Prototypes\/css\/scss\/style1\.scss}line{font-family:\00003486}}
 .lt-ie9 h1, .lt-ie9 h2, .lt-ie9 h3, .lt-ie9 h4,
 .lt-ie9 .header .main-nav ul li a {
   font-family: 'Oswald', sans-serif;
